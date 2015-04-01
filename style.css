@@ -1,7 +1,9 @@
 @charset "utf-8";
 /*---------------------Header---------------------------*/
 #header {
-	height: 150px;
+	height: 160px;
+	width: 1300px;
+	margin-left: 20px;
 	padding-top:20px;
 	background-color:#FFFF99;
 	bottom: 150px; 
@@ -35,15 +37,25 @@
 	margin-top:-10px; 
 	margin-bottom:15x;
 }
+/*--------------------username-------------------------*/
+#username{
+	float:right;
+	margin-right: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-style:italic;
+}
 /*---------------------Body---------------------------*/
 #body{
-	margin-left:50px;
-	margin-right:50px;
-	background-color:#FFFFFF; 
-	height : 600px;
+	height: 350px;
+	width: 1300px;
+	margin-left: 20px;
+	background-color:#F0FFFF; 
 }
 /*---------------------Footer-------------------------*/
 #footer{
+	width: 1300px;
+	margin-left: 20px;
 	margin-bottom:auto;
 	background-color:#FFFF99; 
 	height : 60px;
@@ -59,4 +71,34 @@
 	margin-right :20px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 15px;
+}
+/*----------------button tampilan home----------*/
+#button{
+	float:left;
+	margin-left:200px;
+	margin-top:60px;
+	margin-bottom:40px;
+}
+#button1{
+	float:left;
+	margin-left:10px;
+	margin-top:60px;
+	margin-bottom:40px;
+}
+#button2{
+	float: left;
+	margin-left:10px;
+	margin-top:60px;
+	margin-bottom:40px;
+}
+#button3{
+	float:left;
+	margin-left:50px;
+	margin-top:200px;
+	margin-bottom:40px;
+}
+#button4{
+	float:left;
+	margin-left:10px;
+	margin-bottom:40px;
 }
